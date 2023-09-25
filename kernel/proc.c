@@ -14,6 +14,7 @@ struct {
 static struct proc *initproc;
 
 int nextpid = 1;
+int partAccount = 0;
 extern void forkret(void);
 extern void trapret(void);
 

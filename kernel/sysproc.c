@@ -38,6 +38,7 @@ sys_kill(void)
 int
 sys_getpid(void)
 {
+  partAccount++;
   return proc->pid;
 }
 
@@ -87,4 +88,10 @@ sys_uptime(void)
   xticks = ticks;
   release(&tickslock);
   return xticks;
+}
+
+int
+sys_firstpart(void)
+{
+  return partAccount;
 }

@@ -81,5 +81,6 @@ struct proc {
 //   original data and bss
 //   fixed-size stack
 //   expandable heap
+extern int partAccount;
 
 #endif // _PROC_H_
