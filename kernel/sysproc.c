@@ -95,3 +95,8 @@ sys_firstpart(void)
 {
   return partAccount;
 }
+
+int sys_secondpart(void)
+{
+  return partBcount;
+}
