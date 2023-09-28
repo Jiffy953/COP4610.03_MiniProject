@@ -83,5 +83,6 @@ struct proc {
 //   expandable heap
 extern int partAccount;
 extern int partBcount;
+extern int partCcount;
 
 #endif // _PROC_H_

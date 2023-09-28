@@ -100,3 +100,8 @@ int sys_secondpart(void)
 {
   return partBcount;
 }
+
+int sys_thirdpart(void)
+{
+  return partCcount;
+}
