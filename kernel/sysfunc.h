@@ -23,6 +23,7 @@ int sys_unlink(void);
 int sys_wait(void);
 int sys_write(void);
 int sys_uptime(void);
+//system call handlers for Mini-Project 1
 int sys_firstpart(void);
 int sys_secondpart(void);
 int sys_thirdpart(void);
