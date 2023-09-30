@@ -23,8 +23,9 @@
 #define SYS_sbrk   19
 #define SYS_sleep  20
 #define SYS_uptime 21
-#define SYS_firstpart 22 // part A of Mini-Project 1
-#define SYS_secondpart 23 // part B of Mini-Project 1
-#define SYS_thirdpart 24 // part C of Mini-Project 1
+//new definitions for Mini-Project 1
+#define SYS_firstpart 22
+#define SYS_secondpart 23
+#define SYS_thirdpart 24
 
 #endif // _SYSCALL_H_
