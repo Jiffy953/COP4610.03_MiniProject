@@ -38,7 +38,7 @@ sys_kill(void)
 int
 sys_getpid(void)
 {
-  partAccount++;
+  partAcount++; //increments counter for part A every time getpid() is called
   return proc->pid;
 }
 
@@ -90,10 +90,11 @@ sys_uptime(void)
   return xticks;
 }
 
+//brand-new funcitons for all the parts of Mini Project 1
 int
 sys_firstpart(void)
 {
-  return partAccount;
+  return partAcount;
 }
 
 int sys_secondpart(void)
