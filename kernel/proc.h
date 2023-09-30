@@ -81,7 +81,9 @@ struct proc {
 //   original data and bss
 //   fixed-size stack
 //   expandable heap
-extern int partAccount;
+
+//external variables for Mini-Project 1
+extern int partAcount;
 extern int partBcount;
 extern int partCcount;
 
