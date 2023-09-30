@@ -17,9 +17,10 @@ USER_PROGS := \
 	usertests\
 	wc\
 	zombie\
+	#user programs for Mini-Project 1
 	testparta\
 	testpartb\
-	testpartc
+	testpartc\
 
 USER_PROGS := $(addprefix user/, $(USER_PROGS))
 
