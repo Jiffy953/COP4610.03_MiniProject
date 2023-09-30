@@ -29,6 +29,7 @@ SYSCALL(getpid)
 SYSCALL(sbrk)
 SYSCALL(sleep)
 SYSCALL(uptime)
+#syscalls for Mini-Project 1
 SYSCALL(firstpart)
 SYSCALL(secondpart)
 SYSCALL(thirdpart)
