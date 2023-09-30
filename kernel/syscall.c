@@ -103,6 +103,7 @@ static int (*syscalls[])(void) = {
 [SYS_wait]    sys_wait,
 [SYS_write]   sys_write,
 [SYS_uptime]  sys_uptime,
+//new function pointers for Mini-Project 1
 [SYS_firstpart] sys_firstpart,
 [SYS_secondpart] sys_secondpart,
 [SYS_thirdpart] sys_thirdpart
@@ -114,7 +115,7 @@ void
 syscall(void)
 {
   int num;
-  partBcount++;
+  partBcount++; //increases variable partBcount every time a system call is made
   
   num = proc->tf->eax;
   if(num > 0 && num < NELEM(syscalls) && syscalls[num] != NULL) {
