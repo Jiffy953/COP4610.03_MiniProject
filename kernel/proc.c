@@ -15,7 +15,7 @@ static struct proc *initproc;
 
 int nextpid = 1;
 //defined variables for Mini-Project 1
-int partAccount = 0;
+int partAcount = 0;
 int partBcount = 0;
 int partCcount = 0;
 
