@@ -115,7 +115,7 @@ void
 syscall(void)
 {
   int num;
-  partBcount++; //increases variable partBcount every time a system call is made
+  partBcount++; //increments counter for part B every time a system call is made
   
   num = proc->tf->eax;
   if(num > 0 && num < NELEM(syscalls) && syscalls[num] != NULL) {
