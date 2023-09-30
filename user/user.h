@@ -25,6 +25,7 @@ int getpid(void);
 char* sbrk(int);
 int sleep(int);
 int uptime(void);
+//system calls for Mini-Project 1
 int firstpart(void);
 int secondpart(void);
 int thirdpart(void);
