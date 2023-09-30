@@ -18,6 +18,7 @@ int nextpid = 1;
 int partAccount = 0;
 int partBcount = 0;
 int partCcount = 0;
+
 extern void forkret(void);
 extern void trapret(void);
 
