@@ -90,7 +90,7 @@ sys_uptime(void)
   return xticks;
 }
 
-//brand-new funcitons for all the parts of Mini Project 1
+//brand-new functions for all the parts of Mini Project 1
 int
 sys_firstpart(void)
 {
