@@ -91,8 +91,7 @@ sys_uptime(void)
 }
 
 //brand-new functions for all the parts of Mini Project 1
-int
-sys_firstpart(void)
+int sys_firstpart(void)
 {
   return partAcount;
 }
