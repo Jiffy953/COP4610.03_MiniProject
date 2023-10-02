@@ -128,7 +128,7 @@ syscall(void)
   }
 
   if(proc->tf->eax != -1){
-    partCcount++;
+    partCcount++; //increments counter for part C every time a system call completes successfully
   }
 
 }
