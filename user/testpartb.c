@@ -5,6 +5,6 @@
 int
 main(int argc, char *argv[])
 {
-  printf(1, "Number of system calls executed so far: %d\n", secondpart());
+  printf(1, "Number of system calls executed so far: %d\n", secondpart()); //reports how many system calls have been made (including automatic start-up calls)
   exit();
 }
